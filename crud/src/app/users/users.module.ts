@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ListUsersComponent } from './list-users/list-users.component';
-import { ViweUserComponent } from './viwe-user/viwe-user.component';
-import { AddUserComponent } from './add-user/add-user.component';
-import { EditUserComponent } from './edit-user/edit-user.component';
 import { DeleteComponent } from './delete/delete.component';
+import { CreateComponent } from './create/create.component';
+import { UsersComponent } from './users/users.component';
+import { EditComponent } from './edit/edit.component';
+import { UserComponent } from './user/user.component';
 
 
 
 @NgModule({
   declarations: [
-    ListUsersComponent,
-    ViweUserComponent,
-    AddUserComponent,
-    EditUserComponent,
-    DeleteComponent
+    DeleteComponent,
+    CreateComponent,
+    UsersComponent,
+    EditComponent,
+    UserComponent
   ],
   imports: [
     CommonModule
